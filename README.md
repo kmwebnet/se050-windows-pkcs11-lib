@@ -21,7 +21,7 @@ This repository creates a dynamic link library (DLL) to enable the utilization o
     - Windows 11 operating system.
     - Visual Studio 2022.
     - place Plug ant Trust Middleware 04.03.01 from official NXP website as unzipped simw-top folder.
-    - NXP SE050C1 with FTDI FT260 USB-HID converter.
+    - NXP SE050C1 with FTDI FT260 USB-HID converter.　[USB TO I2C CLICK](https://www.mikroe.com/usb-to-i2c-click) is available in COTS products.
 
 2. **Compiling**:
     - Download the latest release from the [GitHub](https://github.com/kmwebnet/se050-windows-pkcs11-lib).
