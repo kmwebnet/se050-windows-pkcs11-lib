@@ -24,7 +24,7 @@ This repository creates a dynamic link library (DLL) to enable the utilization o
     - NXP SE050C1 with FTDI FT260 USB-HID converter.
 
 2. **Compiling**:
-    - Download the latest release from the [releases page](#).
+    - Download the latest release from the [GitHub](https://github.com/kmwebnet/se050-windows-pkcs11-lib).
     - Unzip and place the Plug and Trust MIddleware in this directory as simw-top folder.
     - Build on Visual Studio 2022. upon success, compiled DLL named se050key.dll will be generated on build\x64.
     
