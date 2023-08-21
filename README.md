@@ -21,10 +21,10 @@ This repository creates a dynamic link library (DLL) to enable the utilization o
     - Windows 11 operating system.
     - Visual Studio 2022.
     - place Plug ant Trust Middleware 04.03.01 from official NXP website as unzipped simw-top folder.
-    - NXP SE050C1 with FTDI FT260 USB-HID converter.
+    - NXP SE050C1 with FTDI FT260 USB-HID converter.　[USB TO I2C CLICK](https://www.mikroe.com/usb-to-i2c-click) is available in COTS products.
 
 2. **Compiling**:
-    - Download the latest release from the [releases page](#).
+    - Download the latest release from the [GitHub](https://github.com/kmwebnet/se050-windows-pkcs11-lib).
     - Unzip and place the Plug and Trust MIddleware in this directory as simw-top folder.
     - Build on Visual Studio 2022. upon success, compiled DLL named se050key.dll will be generated on build\x64.
     
@@ -41,13 +41,12 @@ This repository creates a dynamic link library (DLL) to enable the utilization o
 # OpenSC and OpenSSL sample
 - Install [OpenSC for windows](github.com/OpenSC/OpenSC/releases/tag/0.23.0) 
 - Install [OpenSSL 3](https://slproweb.com/products/Win32OpenSSL.html) not Light package
-
 - Refer about pre setting key and cert: [SE050 Configurations](https://www.nxp.jp/docs/en/application-note/AN12436.pdf)
 
-```powershell
 
 Add 'C:\Program Files\OpenSC Project\OpenSC\tools\' PATH to system environment variable.
 
+```powershell
 PS C:\Users\km> pkcs11-tool.exe --module <your path>se050key.dll --list-slots
 Available slots:
 Slot 0 (0x1):
